@@ -9,4 +9,8 @@ public class ErpBaseServiceImpl1 implements ErpBaseService {
     public void erpServiceDeal(String param) {
         System.out.println("ErpBaseServiceImpl1");
     }
+
+    public static void main(String[] args) {
+        System.out.println("测试新加的内容是否可以正常打印！");
+    }
 }
